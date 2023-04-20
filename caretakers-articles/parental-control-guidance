@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Parental Control & Guidance</title>
+        <meta name="description" content="Article for children about parental control and guidance.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4CAF50"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta property="og:url" content="https://squreit.se"/>
+	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta name="twitter:card" content="summary_large_image"/>
+	    <meta name="twitter:url" content="https://squreit.se"/>
+	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
+        <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="manifest" href="/manifest.json">
+        <style>
+            .zbg {
+                background-image: url("/img/adult-children-tablet.jpeg");
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">ᐱ</button>
+        <div class="theme-container" onclick="lightMode()">
+            <img id="theme-icon" src="/img/sun.svg">
+        </div>
+        <div class="search" onClick="window.open('/search', '_self');">
+            <img id="spi" style="width: 20px; height: 20px;" src="/img/search_black_bg.png">
+        </div>
+        <div class="header">
+            <img src="/img/logo.png" alt="SqureIT" onclick="window.open('/', '_self');"/>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a href="/children">Children</a>
+                <a href="/caretakers">Caretakers</a>
+                <a href="/quiz">Quiz</a>
+                <a href="/gamestools">Games & Tools</a>
+            </div>
+        </div>
+        <div id="mobile_menu" class="mobile_menu">
+            <ul class="menu" id="menu">
+                <li><a class="menuItem" href="/">Home</a></li>
+                <li><a class="menuItem" href="/children">Children</a></li>
+                <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
+                <li><a class="menuItem" href="/quiz">Quiz</a></li>
+                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/about">About</a></li>
+                <li><a class="menuItem" href="/contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <div class="container material-icons" onclick="barShuffle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+        </div>
+        <div class="zbg">
+            <div class="zcenter">
+                <h1>Parental Control & Guidance</h1>
+                <p>Parental Controls and Privacy Settings are useful tools to help minimise the risks your children may face, but they are not 100% effective. It’s really important to teach your child skills like critical thinking and resilience, so they know what do if they encounter risk. Always encourage them to talk to you about anything they find upsetting online.</p>
+            </div>
+        </div>
+        <div class="zcontent-container zl">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Stay Safe</b></h1>
+                    <h1 class="zl-font"><b>Online threats can easily spill into the real world. If you fear for your child’s safety, contact the police.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/stay-safe.webp">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/elephant-adult-child.jpeg">
+                </div>
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Do Something</b></h1>
+                    <h1 class="zl-font"><b>Your child expects protection to mainly come from you, so if the bullying persists, report it to authorities whether it’s the school or the police.</b></h1>
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Eagerly Observe</b></h1>
+                    <h1 class="zl-font"><b>Sit with your child to understand what they are doing, what games they are playing, and how they are interacting with others on the internet.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/child-adult-talking.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/update-watchos.jpeg">
+                </div>
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Update</b></h1>
+                    <h1 class="zl-font"><b>Keep all your devices at home up to date. Don’t configure it and forget. This will help you stay protected against the latest cyber threats.</b></h1>
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Enable MFA</b></h1>
+                    <h1 class="zl-font"><b>Drastically boost your security by following a few steps and adopting simple habits. Multi-Factor Authentication is help services ensure that you are who you say you are when logging in. This may help protect your account even if your password is leaked or stolen.</b></h1>
+                    <button class="zbutton" onclick="window.open('/games-tools/mfa', '_blank');">Learn More</button>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/mfa.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Report Phishing</b></h1>
+                    <h1 class="zl-font"><b>The best approach to fight cybercrimes is by reporting phishing attempts whether it is at your work email or personal.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/malicious-file.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Use Secure WiFi</b></h1>
+                    <h1 class="zl-font"><b>Limit your activities on public wireless networks and hotspots.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/wifi-adult-child.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Backup</b></h1>
+                    <h1 class="zl-font"><b>Make sure to always have a backup and periodically check your backups. Valuable data like your music, pictures, documents, and any other digital information should be stored safely first and then backed up.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/backup.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Share with Care</b></h1>
+                    <h1 class="zl-font"><b>Be careful what you post online. You might reveal a lot of personal information without knowing it.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/instagram-profile.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Privacy</b></h1>
+                    <h1 class="zl-font"><b>Always check the privacy settings for the applications that they are using. They are usually updated frequently so you need to check frequently as well.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/privacy.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Sharenting</b></h1>
+                    <h1 class="zl-font"><b>Studies have showen that the average child has their picture shared on online 1,300 times before the age of 13, which is before they are allowed to create their own social media accounts. Moreover, about half of parents share pictures of their children online, the majority of which takes place before they reach the age of five.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/too-many-cameras.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <button onclick="window.location.href='/caretakers-articles/monitoring-children'">Previous</button>
+            <button onclick="window.location.href='/caretakers'">All Articles</button>
+            <button onclick="window.location.href='/caretakers'">Next</button>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="column">
+                    <h2>Links</h2>
+                    <a href="/"><p>Home</p></a>
+                    <a href="/quiz"><p>Quiz</p></a>
+                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/about"><p>About</p></a>
+                    <a href="/contact"><p>Contact</p></a>
+                </div>
+                <div class="column">
+                    <h2>Articles</h2>
+                    <a href="/children"><p>Articles for children</p></a>
+                    <a href="/caretakers"><p>Articles for caretakers</p></a>
+                </div>
+                <div class="column">
+                    <img src="/img/logo.png" style="width: 250px;">
+                    <p style="padding-left: 25px; padding-right: 25px;">Cyber awareness made easy</p>
+                </div>
+            </div>
+            <p id="fcy"></p>
+            <p>Available under the <a class="white" href="/LICENSE" target="_blank">GNU GPLv3 <img src="/img/gnu_heckert.png" style="width: 45px; margin-bottom: -15px; margin-top: 0; filter: invert(1);"></a></p>
+            <p>Source code can be found on <a class="white" href="https://github.com/aous-al-salek/squreit" target="_blank">GitHub <img src="/img/github-mark-white.png" style="width: 35px; margin-bottom: -10px; margin-top: 0;"></a></p>
+        </div>
+        <script type="text/javascript" src="/js/mobile.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript" src="/js/pwa-handler.js"></script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Recommended for children</title>
+        <meta name="description" content="A collection of cyber safety and security awareness articles for children.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4CAF50"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta property="og:url" content="https://squreit.se"/>
+	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta name="twitter:card" content="summary_large_image"/>
+	    <meta name="twitter:url" content="https://squreit.se"/>
+	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
+        <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="manifest" href="/manifest.json">
+        <style>
+            .zbg {
+                background-image: url("/img/child-using-tablet.jpeg");
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">ᐱ</button>
+        <div class="theme-container" onclick="lightMode()">
+            <img id="theme-icon" src="/img/sun.svg">
+        </div>
+        <div class="search" onClick="window.open('/search', '_self');">
+            <img id="spi" style="width: 20px; height: 20px;" src="/img/search_black_bg.png">
+        </div>
+        <div class="header">
+            <img src="/img/logo.png" alt="SqureIT" onclick="window.open('/', '_self');"/>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a class="active" href="/children">Children</a>
+                <a href="/caretakers">Caretakers</a>
+                <a href="/quiz">Quiz</a>
+                <a href="/gamestools">Games & Tools</a>
+            </div>
+        </div>
+        <div id="mobile_menu" class="mobile_menu">
+            <ul class="menu" id="menu">
+                <li><a class="menuItem" href="/">Home</a></li>
+                <li><a class="menuItem active" href="/children">Children</a></li>
+                <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
+                <li><a class="menuItem" href="/quiz">Quiz</a></li>
+                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/about">About</a></li>
+                <li><a class="menuItem" href="/contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <div class="container material-icons" onclick="barShuffle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+        </div>
+        <div class="zbg">
+            <div class="zcenter">
+                <h1>Recommended for children</h1>
+            </div>
+        </div>
+        <div class="center">            
+            <p style="width: 75%; font-size: 20px;">Articles addressing cyber safety and security aimed at children to help them navigate the digital world.</section></p>
+        <div class="card-container">
+            <ul class="card-wrapper">
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/teenager-bullied.jpeg'>
+                    <h3><a href="/children-articles/cyberbullying">Cyberbullying</a></h3>
+                    <p>Cyberbullying is when someone tries to harm, intimidate or humiliate you online. It can happen through social media, messaging apps, or online games. Cyberbullying can be hurtful and scary but there are ways to protect yourself and always remember to seek help.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/data-charts.avif'>
+                    <h3><a href="/children-articles/data-online">Data Online</a></h3>
+                    <p>Data is the information you put online, such as photos, videos, or posts. It's important to be careful with what you share, who you share it with, and what websites you use. Always think before you post, and keep your personal information safe.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/teenager-using-laptop.avif'>
+                    <h3><a href="/children-articles/how-to-behave-online">How to Behave Online</a></h3>
+                    <p>Behaving online means treating people how you want to be treated. Don't bully, be respectful, and don't share personal information. Think before you post or comment.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/teenager-using-phone.webp'>
+                    <h3><a href="/children-articles/online-friends">Online Friends & People</a></h3>
+                    <p>Be careful when you add online friends. Not all people are what they seem to be. Bad people always sound nice, help you, and buy you online gifts. Avoid adding online people that you don't know in real life because it can lead to cyberstalking, grooming, identity theft, online bullying, and potential physical harm.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/hacker.jpeg'>
+                    <h3><a href="/children-articles/phishing">Phishing</a></h3>
+                    <p>Phishing is when someone tries to trick you into giving them your personal information online. Always be careful and ask an adult for help if you are unsure.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/info.avif'>
+                    <h3><a href="/children-articles/sharing-personal-information">Sharing Personal Information</a></h3>
+                    <p>Not sharing personal information online helps to protect you against cyberbullying, online thieves, scams and spams.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/child-and-adult.jpeg'>
+                    <h3><a href="/children-articles/talk-to-an-adult">Talk to an Adult</a></h3>
+                    <p>It's important to talk to a trusted adult if anything online makes you feel uncomfortable, scared, or unsure. They can help you with any issues you may have and guide you to stay safe online.</p>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="column">
+                    <h2>Links</h2>
+                    <a href="/"><p>Home</p></a>
+                    <a href="/quiz"><p>Quiz</p></a>
+                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/about"><p>About</p></a>
+                    <a href="/contact"><p>Contact</p></a>
+                </div>
+                <div class="column">
+                    <h2>Articles</h2>
+                    <a href="/children"><p>Articles for children</p></a>
+                    <a href="/caretakers"><p>Articles for caretakers</p></a>
+                </div>
+                <div class="column">
+                    <img src="/img/logo.png" style="width: 250px;">
+                    <p style="padding-left: 25px; padding-right: 25px;">Cyber awareness made easy</p>
+                </div>
+            </div>
+            <p id="fcy"></p>
+            <p>Available under the <a class="white" href="/LICENSE" target="_blank">GNU GPLv3 <img src="/img/gnu_heckert.png" style="width: 45px; margin-bottom: -15px; margin-top: 0; filter: invert(1);"></a></p>
+            <p>Source code can be found on <a class="white" href="https://github.com/aous-al-salek/squreit" target="_blank">GitHub <img src="/img/github-mark-white.png" style="width: 35px; margin-bottom: -10px; margin-top: 0;"></a></p>
+        </div>
+        <script type="text/javascript" src="/js/mobile.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript" src="/js/pwa-handler.js"></script>
+    </body>
+</html>

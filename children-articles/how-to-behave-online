@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>How to Behave Online</title>
+        <meta name="description" content="Article for children about online behavior.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4CAF50"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta property="og:url" content="https://squreit.se"/>
+	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta name="twitter:card" content="summary_large_image"/>
+	    <meta name="twitter:url" content="https://squreit.se"/>
+	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
+        <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="manifest" href="/manifest.json">
+        <style>
+            .zbg {
+                background-image: url("/img/teenager-using-laptop.avif");
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">ᐱ</button>
+        <div class="theme-container" onclick="lightMode()">
+            <img id="theme-icon" src="/img/sun.svg">
+        </div>
+        <div class="search" onClick="window.open('/search', '_self');">
+            <img id="spi" style="width: 20px; height: 20px;" src="/img/search_black_bg.png">
+        </div>
+        <div class="header">
+            <img src="/img/logo.png" alt="SqureIT" onclick="window.open('/', '_self');"/>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a href="/children">Children</a>
+                <a href="/caretakers">Caretakers</a>
+                <a href="/quiz">Quiz</a>
+                <a href="/gamestools">Games & Tools</a>
+            </div>
+        </div>
+        <div id="mobile_menu" class="mobile_menu">
+            <ul class="menu" id="menu">
+                <li><a class="menuItem" href="/">Home</a></li>
+                <li><a class="menuItem" href="/children">Children</a></li>
+                <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
+                <li><a class="menuItem" href="/quiz">Quiz</a></li>
+                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/about">About</a></li>
+                <li><a class="menuItem" href="/contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <div class="container material-icons" onclick="barShuffle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+        </div>
+        <div class="zbg">
+            <div class="zcenter">
+                <h1>How to Behave Online</h1>
+                <p>Behaving online means treating people how you want to be treated. Don't bully, be respectful, and don't share personal information. Think before you post or comment.</p>
+            </div>
+        </div>
+        <div class="zcontent-container zl">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be Polite</b></h1>
+                    <h1 class="zl-font"><b>Avoid using bad language or saying hurtful things online to respect others and maintain a positive environment. Cursing back will not solve the problem.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/child-bowing-down.webp">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/pup.avif">
+                </div>
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be Nice</b></h1>
+                    <h1 class="zl-font"><b>Words can hurt or heal. Use them always for a good cause. Don't say or do anything online that could hurt someone's feelings or make them feel bad.</b></h1>
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be on the lookout</b></h1>
+                    <h1 class="zl-font"><b>Don't add or talk to people online who you haven't met in real life to keep yourself safe.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/meerkat-standing.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/black-and-yellow-striped-warning.avif">
+                </div>
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be Careful</b></h1>
+                    <h1 class="zl-font"><b>Aavoid clicking on links, friend requests, photos, or ads from unknown sources. They might lead to harmful websites or downloads.</b></h1>
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Think Critically</b></h1>
+                    <h1 class="zl-font"><b>Don’t believe everything online. There is a lot of inaccurate information online so check with an adult, a book, a friend, or a website to check the reliability of the information.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/teenager-critically-looking.webp">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be Kind to Firends</b></h1>
+                    <h1 class="zl-font"><b>Try to include all your friends and don’t leave anyone out. If you have a group of friends that you met in real life and you play with them, don’t leave someone out when you play together.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/teenagers-smiling.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Be Mindful of Others</b></h1>
+                    <h1 class="zl-font"><b>The Importance of consent (permission for something to happen) when posting pictures online. Don’t share pictures of yourself and don’t share pictures of others or post something about them without their permission (consent). It's not safe to share your own or someone else's pictures online without their permission. Keep yourself and them private.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/respect.avif">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zd reveal fade-right">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Remember to Say No</b></h1>
+                    <h1 class="zl-font"><b>When someone asks you to do something online that you don't feel comfortable with, it's okay to say "No". You should not feel that you have to do something you don't like to make other happy.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/no.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="zcontent-container zl reveal fade-left">
+            <div class="zcol-container">
+                <div class="zcolumn-one">
+                    <h1 class="zxl-font"><b>Share with care</b></h1>
+                    <h1 class="zl-font"><b>Be careful what you post online. You might reveal a lot of personal information without knowing it. Remember that the Internet never forgets.</b></h1>
+                </div>
+                <div class="zcolumn-two">
+                    <img class="zimg" src="/img/point-to-head.webp">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <button onclick="window.location.href='/children-articles/data-online'">Previous</button>
+            <button onclick="window.location.href='/children'">All Articles</button>
+            <button onclick="window.location.href='/children-articles/online-friends'">Next</button>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="column">
+                    <h2>Links</h2>
+                    <a href="/"><p>Home</p></a>
+                    <a href="/quiz"><p>Quiz</p></a>
+                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/about"><p>About</p></a>
+                    <a href="/contact"><p>Contact</p></a>
+                </div>
+                <div class="column">
+                    <h2>Articles</h2>
+                    <a href="/children"><p>Articles for children</p></a>
+                    <a href="/caretakers"><p>Articles for caretakers</p></a>
+                </div>
+                <div class="column">
+                    <img src="/img/logo.png" style="width: 250px;">
+                    <p style="padding-left: 25px; padding-right: 25px;">Cyber awareness made easy</p>
+                </div>
+            </div>
+            <p id="fcy"></p>
+            <p>Available under the <a class="white" href="/LICENSE" target="_blank">GNU GPLv3 <img src="/img/gnu_heckert.png" style="width: 45px; margin-bottom: -15px; margin-top: 0; filter: invert(1);"></a></p>
+            <p>Source code can be found on <a class="white" href="https://github.com/aous-al-salek/squreit" target="_blank">GitHub <img src="/img/github-mark-white.png" style="width: 35px; margin-bottom: -10px; margin-top: 0;"></a></p>
+        </div>
+        <script type="text/javascript" src="/js/mobile.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript" src="/js/pwa-handler.js"></script>
+    </body>
+</html>

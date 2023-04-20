@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Games & Tools</title>
+        <meta name="description" content="A collection of cyber safety and security awareness games and tools.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4CAF50"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta property="og:url" content="https://squreit.se"/>
+	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta name="twitter:card" content="summary_large_image"/>
+	    <meta name="twitter:url" content="https://squreit.se"/>
+	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
+        <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="manifest" href="/manifest.json">
+        <style>
+            .zbg {
+                background-image: url("/img/games-tools.jpeg");
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">ᐱ</button>
+        <div class="theme-container" onclick="lightMode()">
+            <img id="theme-icon" src="/img/sun.svg">
+        </div>
+        <div class="search" onClick="window.open('/search', '_self');">
+            <img id="spi" style="width: 20px; height: 20px;" src="/img/search_black_bg.png">
+        </div>
+        <div class="header">
+            <img src="/img/logo.png" alt="SqureIT" onclick="window.open('/', '_self');"/>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a href="/children">Children</a>
+                <a href="/caretakers">Caretakers</a>
+                <a href="/quiz">Quiz</a>
+                <a class="active" href="/gamestools">Games & Tools</a>
+            </div>
+        </div>
+        <div id="mobile_menu" class="mobile_menu">
+            <ul class="menu" id="menu">
+                <li><a class="menuItem" href="/">Home</a></li>
+                <li><a class="menuItem" href="/children">Children</a></li>
+                <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
+                <li><a class="menuItem" href="/quiz">Quiz</a></li>
+                <li><a class="menuItem active" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/about">About</a></li>
+                <li><a class="menuItem" href="/contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <div class="container material-icons" onclick="barShuffle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+        </div>
+        <div class="zbg">
+            <div class="zcenter">
+                <h1>Games & Tools</h1>
+            </div>
+        </div>
+        <div class="center">
+            <p style="width: 75%; font-size: 20px;">A collection of games and tools that will aid you in you cyber endeavours.</p>
+        <div class="card-container">
+            <ul class="card-wrapper">
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/scramble.avif'>
+                    <h3><a href="/games-tools/scramble">Word Scramble</a></h3>
+                    <p>A word scramble game with cyber safety and security awareness twist.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/word-search.avif'>
+                    <h3><a href="/games-tools/wordsearch">Word Search</a></h3>
+                    <p>A word search game with cyber safety and security awareness twist.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/password.jpeg'>
+                    <h3><a href="/games-tools/password">Password Generation & Validation</a></h3>
+                    <p>Create secure passwords that you can actually remember.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/kpxc_logo.svg'>
+                    <h3><a href="/games-tools/keepass">KeePassXC & KeePassDX</a></h3>
+                    <p>Never forget a password again, securely store passwords, quickly auto-type them into applications, and log into websites.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/mfa.avif'>
+                    <h3><a href="/games-tools/mfa">Multi-Factor Authentication</a></h3>
+                    <p>Drastically boost your security by following a few steps and adopting simple habits.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/hibp.webp'>
+                    <h3><a href="/games-tools/haveibeenpwned">Have I Been Pwned</a></h3>
+                    <p>Check if your email, phone, or password is in a data breach.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/vt.avif'>
+                    <h3><a href="/games-tools/virustotal">VirusTotal</a></h3>
+                    <p>Analyze suspicious files, domains, IPs, and URLs to detect malware and other breaches.</p>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="column">
+                    <h2>Links</h2>
+                    <a href="/"><p>Home</p></a>
+                    <a href="/quiz"><p>Quiz</p></a>
+                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/about"><p>About</p></a>
+                    <a href="/contact"><p>Contact</p></a>
+                </div>
+                <div class="column">
+                    <h2>Articles</h2>
+                    <a href="/children"><p>Articles for children</p></a>
+                    <a href="/caretakers"><p>Articles for caretakers</p></a>
+                </div>
+                <div class="column">
+                    <img src="/img/logo.png" style="width: 250px;">
+                    <p style="padding-left: 25px; padding-right: 25px;">Cyber awareness made easy</p>
+                </div>
+            </div>
+            <p id="fcy"></p>
+            <p>Available under the <a class="white" href="/LICENSE" target="_blank">GNU GPLv3 <img src="/img/gnu_heckert.png" style="width: 45px; margin-bottom: -15px; margin-top: 0; filter: invert(1);"></a></p>
+            <p>Source code can be found on <a class="white" href="https://github.com/aous-al-salek/squreit" target="_blank">GitHub <img src="/img/github-mark-white.png" style="width: 35px; margin-bottom: -10px; margin-top: 0;"></a></p>
+        </div>
+        <script type="text/javascript" src="/js/mobile.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript" src="/js/pwa-handler.js"></script>
+    </body>
+</html>
