@@ -17,6 +17,9 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-image: url(/img/circuit-white.svg);
+    --webkit-hyphens: auto;
+    --moz-hyphens: auto;
+    hyphens: auto;
 }
 
 ::selection {
