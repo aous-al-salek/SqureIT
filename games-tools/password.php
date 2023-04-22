@@ -213,6 +213,7 @@ session_destroy();
                     <a href="/"><p>Home</p></a>
                     <a href="/quiz"><p>Quiz</p></a>
                     <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/feedback"><p>Feedback</p></a>
                     <a href="/about"><p>About</p></a>
                     <a href="/contact"><p>Contact</p></a>
                 </div>
