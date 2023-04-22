@@ -3,7 +3,7 @@ session_start();
 $msg = '';
 $output = ' ';
 if (isset($_POST['input1'])) {
-    if ((intval($_POST['input1']) > 0) && (intval($_POST['input2']) >= 0)) {
+    if ((intval($_POST['input1']) > 0) && (intval($_POST['input2']) >= 0) && is_int($_POST['input1']) && is_int($_POST['input2'])) {
         exec("/usr/bin/python3 ../py/diceware.py {$_POST['input1']} {$_POST['input2']}", $output);
     }
     else {
