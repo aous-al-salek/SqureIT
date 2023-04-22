@@ -149,8 +149,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    max-height: 10000vh;
     flex-direction: column;
     text-align: center;
     animation: fadeIn 1.5s;
