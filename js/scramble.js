@@ -78,7 +78,7 @@ let words = [
     },
     {    
         word: "Spyware",
-        hint: "A wide variety of software installed on people’s computer that collect information about them without their knowledge."
+        hint: "A piece of software installed on computers to collect information about them without their knowledge."
     },
     {    
         word: "Texting",
@@ -98,7 +98,7 @@ let words = [
     },
     {    
         word: "Blacklist",
-        hint: "A list of unwated websites, usernames or keywords that been blocked access to so that searching the internet is safer."
+        hint: "A list of undesired websites or keywords that are blocked to ensure that browsing the internet is safer."
     },
     {    
         word: "Bookmarks",
