@@ -72,6 +72,7 @@ unset($_SESSION["captcha"]);
                 <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
                 <li><a class="menuItem" href="/quiz">Quiz</a></li>
                 <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/feedback">Feedback</a></li>
                 <li><a class="menuItem" href="/about">About</a></li>
                 <li><a class="menuItem" href="/contact">Contact</a></li>
             </ul>
