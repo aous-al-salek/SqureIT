@@ -3,7 +3,7 @@ session_start();
 $msg = '';
 $wrongCaptcha = '';
 $fb = $_POST["user_text"] ?? '';
-if ((intval($_POST['input1']) > 0) && (intval($_POST['input2']) >= 0) && is_int($_POST['input1']) && is_int($_POST['input2'])) {
+if (isset($_POST['input']) && strlen($_POST['input']) > 0) {
     if (strtolower($_POST['input']) == strtolower($_SESSION['captcha'])) {
         $msg = '<span style="color:green">CAPTCHA SUCCEEDED!</span>';
         $file = "feedback.txt";
