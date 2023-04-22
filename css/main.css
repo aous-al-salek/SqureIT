@@ -153,7 +153,7 @@ img {
     max-height: 10000vh;
     flex-direction: column;
     text-align: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
 }
 
 .center p {
@@ -1145,7 +1145,7 @@ td a:hover {
     max-height: 10000vh;
     flex-direction: column;
     text-align: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
 }
 
 .zcenter {
@@ -1155,7 +1155,7 @@ td a:hover {
     max-height: 10000vh;
     flex-direction: column;
     text-align: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
     background-color: rgba(0,0,0, 0.7);
     border-radius: 10px;
     min-height: 50vh;
@@ -1285,7 +1285,7 @@ td a:hover {
     background-size: cover;
     margin: 10px;
     border-radius: 10px;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgb(0 0 0 / 45%);
     min-height: 50vh;
 }
