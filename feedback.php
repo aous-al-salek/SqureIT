@@ -101,9 +101,9 @@ unset($_SESSION["captcha"]);
                         <?php echo $msg; ?>
                     </div>
                     <div id="captcha-box" class="captcha-box">
-                        <p style="width: 75%; margin: 5px auto; color: #4CAF50; font-weight: bold;">Confirm you are not a robot!</p>
+                        <p style="width: 75%; margin: 5px auto; color: #4CAF50; font-weight: bold; background-color: inherit;">Confirm you are not a robot!</p>
                         <div class="clearfix" id="clearfix" style="-webkit-user-select: none; user-select: none;"></div>
-                        <p style="font-size: 15px; width:153px; margin: 5px auto; color: #4CAF50;">Type the four letters you see in the image:</p>
+                        <p style="font-size: 15px; width:153px; margin: 5px auto; color: #4CAF50; background-color: inherit;">Type the four letters you see in the image:</p>
                         <input type="text" class="captcha-input" id="captcha-input" name="input" autocomplete="off" pattern="[A-Za-z]{4}" required/>
                     </div>
                     <input type="submit" id="submitt_user_feedback" class="submit button buttonh" value="Submit" name="submit"/>
