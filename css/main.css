@@ -16,10 +16,21 @@ body {
     font-family: "Comfortaa", sans-serif;
     height: 100%;
     overflow-x: hidden;
-    background-image: url(/img/circuit-black.svg);
     --webkit-hyphens: auto;
     --moz-hyphens: auto;
     hyphens: auto;
+}
+
+body::after {
+    content: "";
+    background: url("/img/circuit-black.svg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 ::selection {
