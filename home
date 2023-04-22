@@ -23,7 +23,7 @@
         <link rel="manifest" href="/manifest.json">
         <style>
             .zbg {
-                background-image: url("/img/circuit.svg");
+                background-image: url("/img/child-with-parents-scary.png");
             }
         </style>
     </head>
