@@ -1381,7 +1381,7 @@ td a:hover {
 .announcement {
     width: 100%;
     border-radius: 10px;
-    background: linear-gradient(45deg, #4CAF50, #b52e75);
+    background: linear-gradient(45deg, #4CAF50, #000000);
     padding: 20px 10px;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgb(0 0 0 / 45%);
     font-size: 20px;
