@@ -24,6 +24,7 @@ body {
 body::after {
     content: "";
     background: url("/img/circuit-black.svg");
+    height: 100%;
     opacity: 0.3;
     top: 0;
     left: 0;
