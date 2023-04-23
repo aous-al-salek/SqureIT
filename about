@@ -69,8 +69,8 @@
             </div>
         </div>
         <div class="center">
-            <p>SqureIT is a cyber safety and security awareness platform focused on children and their caretakers. This is done by providing simple rules of behavior with the rational behind such rules. This is coupled with interactive elemets and tools for enhancing the users' digital experiences.</p>
-            <p>This platform is developed and maintained by three students from the PICS program at the University of Skövde.</p>
+            <p style="width: 75%; font-size: 20px;">SqureIT is a cyber safety and security awareness platform focused on children and their caretakers. This is done by providing simple rules of behavior with the rational behind such rules. This is coupled with interactive elemets and tools for enhancing the users' digital experiences.</p>
+            <p style="width: 75%; font-size: 20px;">This platform is developed and maintained by three students from the PICS program at the University of Skövde.</p>
         </div>
         <div class="footer">
             <div class="row">

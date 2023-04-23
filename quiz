@@ -70,8 +70,8 @@
             </div>
         </div>
         <div class="center">
-            <p>A light quiz aimed at children and meant as a way of checking knowledge aquired through reading the articles aimed at children.</p>
-            <p style="padding-bottom:20px">The quiz consists of 10 randomized questions with unlimited time. You are given feedback immedietly after you submit an answer. When you finished the quiz you get the optione to retake the quiz or submit feedback.</p>
+            <p style="width: 75%; font-size: 20px;">A light quiz aimed at children and meant as a way of checking knowledge aquired through reading the articles aimed at children.</p>
+            <p style="width: 75%; font-size: 20px; padding-bottom:20px">The quiz consists of 10 randomized questions with unlimited time. You are given feedback immedietly after you submit an answer. When you finished the quiz you get the optione to retake the quiz or submit feedback.</p>
             <a class="retake" href="/start-quiz">Take the quiz?</a>
         </div>
         <div class="footer">

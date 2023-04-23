@@ -69,8 +69,8 @@
             </div>
         </div>
         <div class="center">
-            <p>You can reach us by either submitting feedback anonymously <a style="text-decoration: none; color: #4CAF50;" href="/feedback">here</a>, via email at <a style="text-decoration: none; color: #4CAF50;" href="mailto:info@squreit.se">info@squreit.se</a>, or by opening an issue on <a style="text-decoration: none; color: #4CAF50;" href="https://github.com/aous-al-salek/squreit">GitHub</a>.</p>
-            <p>This platform is developed and maintained by three students from the PICS program at the University of Skövde.</p>
+            <p style="width: 75%; font-size: 20px;">You can reach us by either submitting feedback anonymously <a style="text-decoration: none; color: #4CAF50;" href="/feedback">here</a>, via email at <a style="text-decoration: none; color: #4CAF50;" href="mailto:info@squreit.se">info@squreit.se</a>, or by opening an issue on <a style="text-decoration: none; color: #4CAF50;" href="https://github.com/aous-al-salek/squreit">GitHub</a>.</p>
+            <p style="width: 75%; font-size: 20px;">This platform is developed and maintained by three students from the PICS program at the University of Skövde.</p>
         </div>
         <div class="footer">
             <div class="row">

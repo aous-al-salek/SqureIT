@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="center">
-            <p>Search among the contents of the platform.</p>
+            <p style="width: 75%; font-size: 20px;">Search among the contents of the platform.</p>
             <input type="text" id="SearchInput" onkeyup="SearchFunction()" placeholder="Search for content.." title="Type in a keyword">
             <table id="SearchTable">
                 <tr class="header">

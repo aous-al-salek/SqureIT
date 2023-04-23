@@ -91,8 +91,8 @@ unset($_SESSION["captcha"]);
         </div>
         <div class="center">
             <strong>
-                <p>You can provide anonymous feedback below.</p>
-                <p style="margin-bottom: 20px;">Thank you for taking the time.</p>
+                <p style="width: 75%; font-size: 20px;">You can provide anonymous feedback below.</p>
+                <p style="width: 75%; font-size: 20px; margin-bottom: 20px;">Thank you for taking the time.</p>
             </strong>
             <div class="feedback_form" id="feedback_form">
                 <form action="#feedback_form" name="feedback_form" method="post">
