@@ -34,7 +34,7 @@ let words = [
     },
     {    
         word: "Hackers",
-        hint: "A person who uses computers to gain unauthorised access to data."
+        hint: "Individuals who uses computers to gain unauthorised access to data."
     },
     {    
         word: "scammer",
