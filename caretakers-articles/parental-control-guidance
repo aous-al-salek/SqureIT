@@ -119,7 +119,7 @@
                 <div class="zcolumn-one">
                     <h1 class="zxl-font"><b>Enable MFA</b></h1>
                     <h1 class="zl-font"><b>Drastically boost your security by following a few steps and adopting simple habits. Multi-Factor Authentication is help services ensure that you are who you say you are when logging in. This may help protect your account even if your password is leaked or stolen.</b></h1>
-                    <button class="zbutton" onclick="window.open('/games-tools/mfa', '_blank');">Learn More</button>
+                    <button class="zbutton" onclick="window.open('/games-tools/mfa', '_self');">Learn More</button>
                 </div>
                 <div class="zcolumn-two">
                     <img class="zimg" src="/img/mfa.avif">

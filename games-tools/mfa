@@ -113,7 +113,7 @@
                     <h1 class="zl-font"><b>KeePassXC is mainly an open-source cross-platform feature-rich desktop password manager and KeePassDX is an implementation of KeePassXC for smartphones. Both KeePassXC and KeePassDX have built-in support for TOTP MFA and we recommend them both to be used at the same time. Using both means that if you lose either your smartphone or computer, you still have the other device as backup and do not get locked out of your accounts.</b></h1>
                     <button class="zbutton" onclick="window.open('https://keepassxc.org', '_blank');">Try KeePassXC</button>
                     <button class="zbutton" onclick="window.open('https://www.keepassdx.com', '_blank');">Try KeePassDX</button>
-                    <button class="zbutton" onclick="window.open('/games-tools/keepass', '_blank');">Learn more about password managers</button>
+                    <button class="zbutton" onclick="window.open('/games-tools/keepass', '_self');">Learn more about password managers</button>
                 </div>
             </div>
         </div>
