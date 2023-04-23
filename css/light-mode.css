@@ -1397,6 +1397,7 @@ td a:hover {
 .bottom-nav {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
 .bottom-nav button {
