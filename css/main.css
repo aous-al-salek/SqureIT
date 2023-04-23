@@ -189,6 +189,12 @@ img {
     }
 }
 
+#quiz {
+    display: contents;
+    justify-content: center;
+    width: 90%;
+}
+
 #quiz h2 {
     font-size: 30px;
     background-color: #212121;;
@@ -261,6 +267,7 @@ input {
 
 .feedback {
     margin: 20px;
+    width: 75%;
 }
 
 .feedback h3 {
