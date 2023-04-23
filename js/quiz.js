@@ -632,7 +632,7 @@ function displayQuestion() {
     let question = quizQuestions[currentQuestion].question;
     let answers = quizQuestions[currentQuestion].answers;
     let imageHTML = `<img id="Imagen" src="${image}" style="width:100%;max-width:1000px">`
-    let questionHTML = `<h2 style="width: 75%; font-size: 20px;">${question}</h2>`;
+    let questionHTML = `<h2 style="max-width: 75%; font-size: 20px;">${question}</h2>`;
     let answersHTML = "";
     for (const letter in answers) {
         answersHTML += `<label class="checkbox_label id=checkbox_label_id"><input class="checkbox" type="radio" name="answer" value='${letter}' onclick="selectAnswer('${letter}')"> ${answers[letter]}</label>`;
