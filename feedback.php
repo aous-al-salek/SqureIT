@@ -90,9 +90,9 @@ unset($_SESSION["captcha"]);
             </div>
         </div>
         <div class="center">
-            <strong>
-                <p style="width: 75%; font-size: 20px;">You can provide anonymous feedback below.</p>
-                <p style="width: 75%; font-size: 20px; margin-bottom: 20px;">Thank you for taking the time.</p>
+            <strong style="max-width: 90%;">
+                <p style="font-size: 20px;">You can provide anonymous feedback below.</p>
+                <p style="font-size: 20px; margin-bottom: 20px;">Thank you for taking the time.</p>
             </strong>
             <div class="feedback_form" id="feedback_form">
                 <form action="#feedback_form" name="feedback_form" method="post">
