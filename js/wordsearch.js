@@ -492,7 +492,7 @@ $(function () {
         words, 
         '#puzzle', 
         '#words', 
-        { height: 5, 
+        { height: 8, 
             width:8, 
             fillBlanks: true
         });
