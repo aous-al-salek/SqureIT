@@ -9,6 +9,23 @@
         <link rel="apple-touch-icon" href="/img/favicon.png">
         <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <style>
+            body {
+                background-color: rgba(37, 37, 37, 0);
+            }
+            body::after {
+                content: "";
+                background: url('');
+                height: 100%;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                position: fixed;
+                z-index: -1;
+            }
+        </style>
     </head>
     <body>
         <div class="puzzleWrap" id="puzzleWrap">

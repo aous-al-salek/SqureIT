@@ -8,6 +8,23 @@
         <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
         <link rel="apple-touch-icon" href="/img/favicon.png">
         <link rel="stylesheet" type="text/css" href="/css/light-mode.css" id="styleMode">
+        <style>
+            body {
+                background-color: rgba(229, 229, 229, 0);
+            }
+            body::after {
+                content: "";
+                background: url('');
+                height: 100%;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                position: fixed;
+                z-index: -1;
+            }
+        </style>
     </head>
     <body>
         <div class="puzzleWrap" id="puzzleWrap">
