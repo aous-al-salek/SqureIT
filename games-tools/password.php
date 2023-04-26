@@ -2,7 +2,7 @@
 session_start();
 $msg = '';
 $output = ' ';
-if (isset($_POST['input1'])) {
+if (isset($_POST['input1']) && isset($_POST['input2'])) {
     if ((intval($_POST['input1']) > 0) && (intval($_POST['input2']) >= 0)) {
         $int1 = is_numeric($_POST['input1']) ? (int)$_POST['input1'] : 4;
         $int2 = is_numeric($_POST['input2']) ? (int)$_POST['input2'] : 2;
