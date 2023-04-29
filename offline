@@ -68,7 +68,7 @@
             <div class="zcenter" style="height: 100vh;">
                 <h1>Offline</h1>
                 <p>Looks like there are problems with the connection.</p>
-                <button class="zbutton" onclick="window.open('/', '_self');">Reconnect</button>
+                <button class="zbutton" onclick="window.location.reload();">Reconnect</button>
             </div>
         </div>
         <div class="footer">
