@@ -56,7 +56,7 @@ unset($_SESSION["captcha"]);
             <img id="spi" style="width: 20px; height: 20px;" src="/img/search_black_bg.png">
         </div>
         <div class="header">
-            <img src="/img/logo.png" alt="SqureIT" id="header-logo"/>
+            <img src="/img/logo.png" alt="SqureIT" id="header-logo" onMouseDown="logoClick(event)"/>
             <div class="header-right">
                 <a href="/">Home</a>
                 <a href="/children">Children</a>

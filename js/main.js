@@ -65,16 +65,15 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 
-let headerLogo = document.getElementById('header-logo');
-headerLogo.addEventListener('click', function(e) {
-    if (e.button == 1) {
+var headerLogo = document.querySelector('#header-logo');
+headerLogo.addEventListener('contextmenu', (v) => v.preventDefault());
+function logoClick(event) {
+    if (event.button == 0) {
         window.open('/', '_self');
     }
-});
-headerLogo.addEventListener('auxclick', function(e) {
-    if (e.button == 1) {
+    if (event.button == 1) {
         window.open('/', '_blank');
     }
-});
+}
 
 document.getElementById("fcy").innerHTML = `Copyright &copy; ${new Date().getFullYear()} <img src="/img/logo.png" style="width: 150px; margin-bottom: -20px;">`;
