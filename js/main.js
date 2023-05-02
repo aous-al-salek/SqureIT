@@ -63,9 +63,9 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-reveal()
+reveal();
 
-let headerLogo = document.getElementById('header-logo')
+let headerLogo = document.getElementById('header-logo');
 headerLogo.addEventListener('auxclick', function(e) {
     if (e.button == 1) {
         window.open('/', '_blank');
