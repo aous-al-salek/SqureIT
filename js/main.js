@@ -66,6 +66,11 @@ window.addEventListener("scroll", reveal);
 reveal();
 
 let headerLogo = document.getElementById('header-logo');
+headerLogo.addEventListener('click', function(e) {
+    if (e.button == 1) {
+        window.open('/', '_self');
+    }
+});
 headerLogo.addEventListener('auxclick', function(e) {
     if (e.button == 1) {
         window.open('/', '_blank');
