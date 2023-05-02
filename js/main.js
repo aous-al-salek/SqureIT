@@ -65,4 +65,11 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal()
 
+let headerLogo = document.getElementById('header-logo')
+headerLogo.addEventListener('auxclick', function(e) {
+    if (e.button == 1) {
+        window.open('/', '_blank');
+    }
+});
+
 document.getElementById("fcy").innerHTML = `Copyright &copy; ${new Date().getFullYear()} <img src="/img/logo.png" style="width: 150px; margin-bottom: -20px;">`;
