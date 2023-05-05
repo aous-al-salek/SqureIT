@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Word Search</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4CAF50"/>
+        <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <style>
+            body {
+                background-color: rgba(37, 37, 37, 0);
+            }
+            body::after {
+                content: "";
+                background: url('');
+                height: 100%;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                position: fixed;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="puzzleWrap" id="puzzleWrap">
+            <p style="font-size: 30px;">Word Search</p>
+            <div id='words' style="font-size: 20px;"></div>
+            <div id='puzzle'></div>
+            <button id='solve'>Solve it for me</button>
+            <a class="newPuzzle" onClick="location.href='/games-tools/wspuzzle'; location.reload();">New puzzle</a>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="/js/wordsearch.js"></script>
+    </body>
+</html>
