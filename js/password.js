@@ -172,7 +172,7 @@ switch (strength) {
     break;
 }
 
-if (window.matchMedia("(max-width: 800px)").matches) {
+if (window.matchMedia("(max-width: 900px)").matches) {
     document.getElementById("message2").style.display = "block";
 
     var PWInput1 = document.getElementById("psw1");
