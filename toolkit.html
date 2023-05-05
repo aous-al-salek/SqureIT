@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>VirusTotal</title>
-        <meta name="description" content="Article about the cyber safety and security tool VirusTotal.">
+        <title>Tools</title>
+        <meta name="description" content="A collection of cyber safety and security awareness games and tools.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#4CAF50"/>
-        <meta property="og:type" content="article"/>
+        <meta property="og:type" content="website"/>
         <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
 	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
 	    <meta property="og:url" content="https://squreit.se"/>
@@ -23,7 +23,7 @@
         <link rel="manifest" href="/manifest.json">
         <style>
             .zbg {
-                background-image: url("/img/vt.avif");
+                background-image: url("/img/games-tools.jpeg");
             }
         </style>
     </head>
@@ -42,7 +42,8 @@
                 <a href="/children">Children</a>
                 <a href="/caretakers">Caretakers</a>
                 <a href="/quiz">Quiz</a>
-                <a href="/gamestools">Games & Tools</a>
+                <a href="/gameroom">Games</a>
+                <a class="active" href="/toolkit">Tools</a>
             </div>
         </div>
         <div id="mobile_menu" class="mobile_menu">
@@ -51,8 +52,8 @@
                 <li><a class="menuItem" href="/children">Children</a></li>
                 <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
                 <li><a class="menuItem" href="/quiz">Quiz</a></li>
-                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
-                <li><a class="menuItem" href="/feedback">Feedback</a></li>
+                <li><a class="menuItem" href="/gameroom">Games</a></li>
+                <li><a class="menuItem active" href="/toolkit">Tools</a></li>
                 <li><a class="menuItem" href="/about">About</a></li>
                 <li><a class="menuItem" href="/contact">Contact</a></li>
             </ul>
@@ -66,50 +67,40 @@
         </div>
         <div class="zbg">
             <div class="zcenter">
-                <h1>VirusTotal</h1>
-                <p>Analyze suspicious files, domains, IPs, and URLs to detect malware and other breaches.</p>
+                <h1>Tools</h1>
             </div>
         </div>
-        <div class="zcontent-container zl">
-            <div class="zcol-container">
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Files</b></h1>
-                    <h1 class="zl-font"><b>You can upload a suspicious file and check if antivirus software from many vendors detect security issues.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://www.virustotal.com/gui/home/upload', '_blank');">Try it</button>
-                </div>
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/new-file.avif">
-                </div>
-            </div>
+        <div class="center">
+            <p style="width: 75%; font-size: 20px;">A collection of tools that will aid you in you cyber endeavours.</p>
+        <div class="card-container">
+            <ul class="card-wrapper">
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/password.jpeg'>
+                    <h3><a href="/tools/password">Password Generation & Validation</a></h3>
+                    <p>Create secure passwords that you can actually remember.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/kpxc_logo.svg'>
+                    <h3><a href="/tools/keepass">KeePassXC & KeePassDX</a></h3>
+                    <p>Never forget a password again, securely store passwords, quickly auto-type them into applications, and log into websites.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/mfa.avif'>
+                    <h3><a href="/tools/mfa">Multi-Factor Authentication</a></h3>
+                    <p>Drastically boost your security by following a few steps and adopting simple habits.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/hibp.webp'>
+                    <h3><a href="/tools/haveibeenpwned">Have I Been Pwned</a></h3>
+                    <p>Check if your email, phone, or password is in a data breach.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/vt.avif'>
+                    <h3><a href="/tools/virustotal">VirusTotal</a></h3>
+                    <p>Analyze suspicious files, domains, IPs, and URLs to detect malware and other breaches.</p>
+                </li>
+            </ul>
         </div>
-        <div class="zcontent-container zd reveal fade-right">
-            <div class="zcol-container">
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/url.avif">
-                </div>
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Links</b></h1>
-                    <h1 class="zl-font"><b>You can check if a suspicious link is detected as malicious by many cyber intelligence vendors.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://www.virustotal.com/gui/home/url', '_blank');">Try it</button>
-                </div>
-            </div>
-        </div>
-        <div class="zcontent-container zl reveal fade-left">
-            <div class="zcol-container">
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>General Search</b></h1>
-                    <h1 class="zl-font"><b>You can check if a suspicious URL, IP address, domain name, or file hash is detected as malicious by many cyber intelligence vendors.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://www.virustotal.com/gui/home/search', '_blank');">Try it</button>
-                </div>
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/patch-panel.avif">
-                </div>
-            </div>
-        </div>
-        <div class="bottom-nav">
-            <button onclick="window.location.href='/games-tools/haveibeenpwned'">Previous</button>
-            <button onclick="window.location.href='/gamestools'">All Items</button>
-            <button onclick="window.location.href='/gamestools'">Next</button>
         </div>
         <div class="footer">
             <div class="row">
@@ -117,7 +108,8 @@
                     <h2>Links</h2>
                     <a href="/"><p>Home</p></a>
                     <a href="/quiz"><p>Quiz</p></a>
-                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/gameroom"><p>Games</p></a>
+                    <a href="/toolkit"><p>Tools</p></a>
                     <a href="/feedback"><p>Feedback</p></a>
                     <a href="/about"><p>About</p></a>
                     <a href="/contact"><p>Contact</p></a>

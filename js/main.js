@@ -29,7 +29,7 @@ function lightMode() {
         themeIcon.src = themeIcon.src.substring(0,themeIcon.src.lastIndexOf("/img/moon.svg"))+"/img/sun.svg";
         spi.src = spi.src.substring(0,spi.src.lastIndexOf("/img/search_white_bg.png"))+"/img/search_black_bg.png";
         if (lastPart === "wordsearch") {
-            document.getElementById('wspuzzle').src = "/games-tools/wspuzzle";
+            document.getElementById('wspuzzle').src = "/games/wspuzzle";
         }
     } else {
         window.localStorage.setItem('lightMode', 'enabled');
@@ -37,7 +37,7 @@ function lightMode() {
         themeIcon.src = themeIcon.src.substring(0,themeIcon.src.lastIndexOf("/img/sun.svg"))+"/img/moon.svg";
         spi.src = spi.src.substring(0,spi.src.lastIndexOf("/img/search_black_bg.png"))+"/img/search_white_bg.png";
         if (lastPart === "wordsearch") {
-            document.getElementById('wspuzzle').src = "/games-tools/wspuzzlel";
+            document.getElementById('wspuzzle').src = "/games/wspuzzlel";
         }
     }
 }

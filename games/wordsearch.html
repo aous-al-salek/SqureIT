@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Word Scramble</title>
-        <meta name="description" content="A cyber safety and security awareness raising game of word scramble.">
+        <title>Word Search</title>
+        <meta name="description" content="A cyber safety and security awareness raising game of word search.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#4CAF50"/>
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
-  	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
-  	    <meta property="og:url" content="https://squreit.se"/>
-  	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
-  	    <meta name="twitter:card" content="summary_large_image"/>
-  	    <meta name="twitter:url" content="https://squreit.se"/>
-  	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
-  	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
-  	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta property="og:url" content="https://squreit.se"/>
+	    <meta property="og:image" content="https://squreit.se/img/favicon.png"/>
+	    <meta name="twitter:card" content="summary_large_image"/>
+	    <meta name="twitter:url" content="https://squreit.se"/>
+	    <meta name="twitter:title" content="SqureIT: Cyber Awareness Made Easy!"/>
+	    <meta name="twitter:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
+	    <meta name="twitter:image" content="https://squreit.se/img/favicon.png"/>
         <link rel="icon shorcut" type="image/x-icon" href="/img/favicon.png">
         <link rel="apple-touch-icon" href="/img/favicon.png">
         <link rel="stylesheet" type="text/css" href="/css/main.css" id="styleMode">
@@ -23,7 +23,7 @@
         <link rel="manifest" href="/manifest.json">
         <style>
             .zbg {
-                background-image: url("/img/scramble.avif");
+                background-image: url("/img/word-search.avif");
             }
         </style>
     </head>
@@ -42,7 +42,8 @@
                 <a href="/children">Children</a>
                 <a href="/caretakers">Caretakers</a>
                 <a href="/quiz">Quiz</a>
-                <a href="/gamestools">Games & Tools</a>
+                <a href="/gameroom">Games</a>
+                <a href="/toolkit">Tools</a>
             </div>
         </div>
         <div id="mobile_menu" class="mobile_menu">
@@ -51,7 +52,8 @@
                 <li><a class="menuItem" href="/children">Children</a></li>
                 <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
                 <li><a class="menuItem" href="/quiz">Quiz</a></li>
-                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/gameroom">Games</a></li>
+                <li><a class="menuItem" href="/toolkit">Tools</a></li>
                 <li><a class="menuItem" href="/feedback">Feedback</a></li>
                 <li><a class="menuItem" href="/about">About</a></li>
                 <li><a class="menuItem" href="/contact">Contact</a></li>
@@ -66,32 +68,16 @@
         </div>
         <div class="zbg">
             <div class="zcenter">
-                <h1>Word Scramble</h1>
-                <p>A word scramble game with cyber safety and security awareness twist.</p>
+                <h1>Word Search</h1>
+                <p>A word search game with cyber safety and security awareness twist.</p>
             </div>
         </div>
         <div class="center">
-            <p style="width: 75%; font-size: 20px;">Reorder the letters to contstruct a term from the cyber safety and security field and type them into box. Check your answer and get instant feedback. If the solution is incorrect you are asked to retry, however, if the solution is correct a new word appears after 1.5 seconds from receiving the feedback. Make use of the hints udner the letters to help you figure out the word.</p>
-            <div class="containerScramble reveal fade-bottom">
-                <h2>Word Scramble</h2>
-                <div class="contentScramble">
-                    <p class="wordScramble" id="wordScramble"></p>
-                    <div class="detailsScramble">
-                        <p class="hint" id="hint">Hint: <span id="hint-span"></span></p>
-                    </div>
-                    <input type="text" id="inputScramble" spellcheck="false" placeholder="Enter a valid word" onblur="this.placeholder='Enter a valid word';" onfocus="this.placeholder='';" autocomplete="off" pattern="[A-Z]{1,}" required>
-                    <div class="buttonsScramble">
-                        <button class="refresh-word" id="refresh-word">Refresh Word</button>
-                        <button class="check-word" id="check-word">Check Word</button>
-                    </div>
-                    <div class="feedback" id="feedback"></div>
-                </div>
-            </div>
+            <p style="width: 75%; font-size: 20px;">Connect the letters to contstruct one of the terms below in green from the cyber safety and security field. The words can overlap and connections can be made in all directions (← → ↑ ↓ ↖ ↗ ↘ ↙). You can also chose to see the solution using the "Solve it for me" button and generate a new puzzle using the "New puzzle" button.</p>
+            <iframe class="wspuzzle reveal fade-bottom" id="wspuzzle" src="/games/wspuzzle" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
         </div>
         <div class="bottom-nav">
-            <button onclick="window.location.href='/gamestools'">Previous</button>
-            <button onclick="window.location.href='/gamestools'">All Items</button>
-            <button onclick="window.location.href='/games-tools/wordsearch'">Next</button>
+            <button onclick="window.location.href='/gameroom'">All Games</button>
         </div>
         <div class="footer">
             <div class="row">
@@ -99,7 +85,8 @@
                     <h2>Links</h2>
                     <a href="/"><p>Home</p></a>
                     <a href="/quiz"><p>Quiz</p></a>
-                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/gameroom"><p>Games</p></a>
+                    <a href="/toolkit"><p>Tools</p></a>
                     <a href="/feedback"><p>Feedback</p></a>
                     <a href="/about"><p>About</p></a>
                     <a href="/contact"><p>Contact</p></a>
@@ -108,7 +95,6 @@
                     <h2>Articles</h2>
                     <a href="/children"><p>Articles for children</p></a>
                     <a href="/caretakers"><p>Articles for caretakers</p></a>
-                    <a href="#"><p>Recommended for seniors</p></a>
                 </div>
                 <div class="column">
                     <img src="/img/logo.png" style="width: 250px;">
@@ -121,7 +107,13 @@
         </div>
         <script type="text/javascript" src="/js/mobile.js"></script>
         <script type="text/javascript" src="/js/main.js"></script>
-            <script type="text/javascript" src="/js/pwa-handler.js"></script>
-        <script type="text/javascript" src="/js/scramble.js"></script>
+        <script type="text/javascript" src="/js/pwa-handler.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="/js/wordsearch.js"></script>
+        <script>
+            function resizeIframe(obj) {
+                obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+        </script>
     </body>
 </html>

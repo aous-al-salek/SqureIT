@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Multi-Factor Authentication</title>
-        <meta name="description" content="Article about the cybersecurity techniuqes of Multi-Factor Authentication (MFA), Two-Factor Authentication (2FA), and Two-Step Verification.">
+        <title>Have I Been Pwned</title>
+        <meta name="description" content="Article about the cyber sagety and security tool haveibeenpwned.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#4CAF50"/>
@@ -23,7 +23,7 @@
         <link rel="manifest" href="/manifest.json">
         <style>
             .zbg {
-                background-image: url("/img/mfa.avif");
+                background-image: url("/img/hibp.webp");
             }
         </style>
     </head>
@@ -42,7 +42,8 @@
                 <a href="/children">Children</a>
                 <a href="/caretakers">Caretakers</a>
                 <a href="/quiz">Quiz</a>
-                <a href="/gamestools">Games & Tools</a>
+                <a href="/gameroom">Games</a>
+                <a href="/toolkit">Tools</a>
             </div>
         </div>
         <div id="mobile_menu" class="mobile_menu">
@@ -51,7 +52,8 @@
                 <li><a class="menuItem" href="/children">Children</a></li>
                 <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
                 <li><a class="menuItem" href="/quiz">Quiz</a></li>
-                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
+                <li><a class="menuItem" href="/gameroom">Games</a></li>
+                <li><a class="menuItem" href="/toolkit">Tools</a></li>
                 <li><a class="menuItem" href="/feedback">Feedback</a></li>
                 <li><a class="menuItem" href="/about">About</a></li>
                 <li><a class="menuItem" href="/contact">Contact</a></li>
@@ -66,61 +68,50 @@
         </div>
         <div class="zbg">
             <div class="zcenter">
-                <h1>Multi-Factor Authentication</h1>
-                <p>Drastically boost your security by following a few steps and adopting simple habits.</p>
+                <h1>Have I Been Pwned</h1>
+                <p>Check if your email, phone, or password is in a data breach.</p>
             </div>
         </div>
         <div class="zcontent-container zl">
             <div class="zcol-container">
                 <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>What is MFA?</b></h1>
-                    <h1 class="zl-font"><b>The traditional method of using just a username and password for authentication is not very secure as they are easy to guess or steal. For added security, services have introduced Multi-Factor Authentication, Two-Factor Authentication (2Fa), or Two-Step Verification (all the same). This requires further information or actions, in addition to the username and password, to prove the user's identity when signing in.</b></h1>
+                    <h1 class="zxl-font"><b>Emails</b></h1>
+                    <h1 class="zl-font"><b>Leaked email addresses can cause issues that range from minor annoyances to fully fledged attacks. Remember that in most cases all you need to login in is email and password, which makes your email half of the required information.</b></h1>
+                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com', '_blank');">Try it</button>
                 </div>
                 <div class="zcolumn-two">
-                    <img class="zimg" src="/img/ig-login.avif">
+                    <img class="zimg" src="/img/mail-app.avif">
                 </div>
             </div>
         </div>
         <div class="zcontent-container zd reveal fade-right">
             <div class="zcol-container">
                 <div class="zcolumn-two">
-                    <img class="zimg" src="/img/fingerpring.avif">
+                    <img class="zimg" src="/img/t9-keyboard.jpeg">
                 </div>
                 <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>How does MFA work?</b></h1>
-                    <h1 class="zl-font"><b>You should be able to setup MFA in the security settings of your accounts. There are widely supported methods that should be avoided such as SMS and Email confirmation as these methods can be spoofed easily. Another widely adopted method that is more secure is Time-based one-time password (TOTP) where using an app you enter a secure code aquired from the service into the app and a new PIN is generated every 30 seconds by the app. Other methods are sign in confirmation from your smartphone and USB keys.</b></h1>
+                    <h1 class="zxl-font"><b>Phone Numbers</b></h1>
+                    <h1 class="zl-font"><b>A leaked phone number can be used against you. An attacker who knows your phone number through a data breach maay be able to obtain a SIM card from you phone operator through social engineering techniques. This will likely allow them to access your accounts through standard recovery processes.</b></h1>
+                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com', '_blank');">Try it</button>
                 </div>
             </div>
         </div>
         <div class="zcontent-container zl reveal fade-left">
             <div class="zcol-container">
                 <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Types of MFA</b></h1>
-                    <h1 class="zl-font"><b>Authentication factors confirm identity during sign-in. Common types are: something you know (password or PIN), something you have (smartphone or secure USB key), and something you are (fingerprint or facial recognition).</b></h1>
+                    <h1 class="zxl-font"><b>Passwords</b></h1>
+                    <h1 class="zl-font"><b>You can check if a password has been included in a known data breach. If a password is not found on Have I Been Pwned, that does not neccessarely mean that it is secure. Therefore, do not reuse the same password for multiple accounts and when a service you use suffers a data breach you should change your password and never reuse the old one included on the breach.</b></h1>
+                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com/Passwords', '_blank');">Try it</button>
                 </div>
                 <div class="zcolumn-two">
-                    <img class="zimg" src="/img/usb-key.png">
-                </div>
-            </div>
-        </div>
-        <div class="zcontent-container zd reveal fade-right">
-            <div class="zcol-container">
-                <div class="zcolumn-two">
-                    <img style="width: auto; aspect-ratio: auto;" class="zimg" src="/img/kpdx-screen.jpg">
-                </div>
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>KeePassXC & KeePassDX</b></h1>
-                    <h1 class="zl-font"><b>KeePassXC is mainly an open-source cross-platform feature-rich desktop password manager and KeePassDX is an implementation of KeePassXC for smartphones. Both KeePassXC and KeePassDX have built-in support for TOTP MFA and we recommend them both to be used at the same time. Using both means that if you lose either your smartphone or computer, you still have the other device as backup and do not get locked out of your accounts.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://keepassxc.org', '_blank');">Try KeePassXC</button>
-                    <button class="zbutton" onclick="window.open('https://www.keepassdx.com', '_blank');">Try KeePassDX</button>
-                    <button class="zbutton" onclick="window.open('/games-tools/keepass', '_self');">Learn more about password managers</button>
+                    <img class="zimg" src="/img/keys.avif">
                 </div>
             </div>
         </div>
         <div class="bottom-nav">
-            <button onclick="window.location.href='/games-tools/keepass'">Previous</button>
-            <button onclick="window.location.href='/gamestools'">All Items</button>
-            <button onclick="window.location.href='/games-tools/haveibeenpwned'">Next</button>
+            <button onclick="window.location.href='/tools/mfa'">Previous</button>
+            <button onclick="window.location.href='/toolkit'">All Tools</button>
+            <button onclick="window.location.href='/tools/virustotal'">Next</button>
         </div>
         <div class="footer">
             <div class="row">
@@ -128,7 +119,8 @@
                     <h2>Links</h2>
                     <a href="/"><p>Home</p></a>
                     <a href="/quiz"><p>Quiz</p></a>
-                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/gameroom"><p>Games</p></a>
+                    <a href="/toolkit"><p>Tools</p></a>
                     <a href="/feedback"><p>Feedback</p></a>
                     <a href="/about"><p>About</p></a>
                     <a href="/contact"><p>Contact</p></a>

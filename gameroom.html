@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Have I Been Pwned</title>
-        <meta name="description" content="Article about the cyber sagety and security tool haveibeenpwned.">
+        <title>Games</title>
+        <meta name="description" content="A collection of cyber safety and security awareness games and tools.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#4CAF50"/>
-        <meta property="og:type" content="article"/>
+        <meta property="og:type" content="website"/>
         <meta property="og:title" content="SqureIT: Cyber Awareness Made Easy!"/>
 	    <meta property="og:description" content="SqureIT is a cyber safety and security awareness platform focused on children and their care takes."/>
 	    <meta property="og:url" content="https://squreit.se"/>
@@ -23,7 +23,7 @@
         <link rel="manifest" href="/manifest.json">
         <style>
             .zbg {
-                background-image: url("/img/hibp.webp");
+                background-image: url("/img/exit.jpg");
             }
         </style>
     </head>
@@ -42,7 +42,8 @@
                 <a href="/children">Children</a>
                 <a href="/caretakers">Caretakers</a>
                 <a href="/quiz">Quiz</a>
-                <a href="/gamestools">Games & Tools</a>
+                <a class="active" href="/gameroom">Games</a>
+                <a href="/toolkit">Tools</a>
             </div>
         </div>
         <div id="mobile_menu" class="mobile_menu">
@@ -51,8 +52,8 @@
                 <li><a class="menuItem" href="/children">Children</a></li>
                 <li><a class="menuItem" href="/caretakers">Caretakers</a></li>
                 <li><a class="menuItem" href="/quiz">Quiz</a></li>
-                <li><a class="menuItem" href="/gamestools">Games & Tools</a></li>
-                <li><a class="menuItem" href="/feedback">Feedback</a></li>
+                <li><a class="menuItem active" href="/gameroom">Games</a></li>
+                <li><a class="menuItem" href="/toolkit">Tools</a></li>
                 <li><a class="menuItem" href="/about">About</a></li>
                 <li><a class="menuItem" href="/contact">Contact</a></li>
             </ul>
@@ -66,50 +67,25 @@
         </div>
         <div class="zbg">
             <div class="zcenter">
-                <h1>Have I Been Pwned</h1>
-                <p>Check if your email, phone, or password is in a data breach.</p>
+                <h1>Games</h1>
             </div>
         </div>
-        <div class="zcontent-container zl">
-            <div class="zcol-container">
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Emails</b></h1>
-                    <h1 class="zl-font"><b>Leaked email addresses can cause issues that range from minor annoyances to fully fledged attacks. Remember that in most cases all you need to login in is email and password, which makes your email half of the required information.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com', '_blank');">Try it</button>
-                </div>
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/mail-app.avif">
-                </div>
-            </div>
+        <div class="center">
+            <p style="width: 75%; font-size: 20px;">A collection of games that will aid you in you cyber endeavours.</p>
+        <div class="card-container">
+            <ul class="card-wrapper">
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/scramble.avif'>
+                    <h3><a href="/games/scramble">Word Scramble</a></h3>
+                    <p>A word scramble game with cyber safety and security awareness twist.</p>
+                </li>
+                <li class="card reveal fade-bottom">
+                    <img class="card-img" src='/img/word-search.avif'>
+                    <h3><a href="/games/wordsearch">Word Search</a></h3>
+                    <p>A word search game with cyber safety and security awareness twist.</p>
+                </li>
+            </ul>
         </div>
-        <div class="zcontent-container zd reveal fade-right">
-            <div class="zcol-container">
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/t9-keyboard.jpeg">
-                </div>
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Phone Numbers</b></h1>
-                    <h1 class="zl-font"><b>A leaked phone number can be used against you. An attacker who knows your phone number through a data breach maay be able to obtain a SIM card from you phone operator through social engineering techniques. This will likely allow them to access your accounts through standard recovery processes.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com', '_blank');">Try it</button>
-                </div>
-            </div>
-        </div>
-        <div class="zcontent-container zl reveal fade-left">
-            <div class="zcol-container">
-                <div class="zcolumn-one">
-                    <h1 class="zxl-font"><b>Passwords</b></h1>
-                    <h1 class="zl-font"><b>You can check if a password has been included in a known data breach. If a password is not found on Have I Been Pwned, that does not neccessarely mean that it is secure. Therefore, do not reuse the same password for multiple accounts and when a service you use suffers a data breach you should change your password and never reuse the old one included on the breach.</b></h1>
-                    <button class="zbutton" onclick="window.open('https://haveibeenpwned.com/Passwords', '_blank');">Try it</button>
-                </div>
-                <div class="zcolumn-two">
-                    <img class="zimg" src="/img/keys.avif">
-                </div>
-            </div>
-        </div>
-        <div class="bottom-nav">
-            <button onclick="window.location.href='/games-tools/mfa'">Previous</button>
-            <button onclick="window.location.href='/gamestools'">All Items</button>
-            <button onclick="window.location.href='/games-tools/virustotal'">Next</button>
         </div>
         <div class="footer">
             <div class="row">
@@ -117,7 +93,8 @@
                     <h2>Links</h2>
                     <a href="/"><p>Home</p></a>
                     <a href="/quiz"><p>Quiz</p></a>
-                    <a href="/gamestools"><p>Games & Tools</p></a>
+                    <a href="/gameroom"><p>Games</p></a>
+                    <a href="/toolkit"><p>Tools</p></a>
                     <a href="/feedback"><p>Feedback</p></a>
                     <a href="/about"><p>About</p></a>
                     <a href="/contact"><p>Contact</p></a>
