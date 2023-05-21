@@ -2,9 +2,10 @@
 session_start();
 $msg = '';
 $wrongCaptcha = '';
-$fb = $_POST["user_text"] ?? '';
-if (isset($_POST['input']) && strlen($_POST['input']) > 0) {
-    if (strtolower($_POST['input']) == strtolower($_SESSION['captcha'])) {
+$fb = addslashes($_POST["user_text"]) ?? '';
+$uin = addslashes($_POST['input']) ?? '';
+if (isset($uin) && strlen($uin) > 0) {
+    if (strtolower($uin) == strtolower($_SESSION['captcha'])) {
         $msg = '<span style="color:green">CAPTCHA SUCCEEDED!</span>';
         $file = "feedback.txt";
         file_put_contents($file, $fb . "\r\n#########################\r\n", FILE_APPEND | LOCK_EX);
