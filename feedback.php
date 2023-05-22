@@ -2,8 +2,8 @@
 session_start();
 $msg = '';
 $wrongCaptcha = '';
-$fb = addslashes($_POST["user_text"]) ?? '';
-$uin = addslashes($_POST['input']) ?? '';
+$fb = addslashes($_POST["user_text"] ?? '') ?? '';
+$uin = addslashes($_POST['input'] ?? '') ?? '';
 if (isset($uin) && strlen($uin) > 0) {
     if (strtolower($uin) == strtolower($_SESSION['captcha'])) {
         $msg = '<span style="color:green">CAPTCHA SUCCEEDED!</span>';
