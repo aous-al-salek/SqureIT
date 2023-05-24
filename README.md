@@ -50,7 +50,6 @@ You only need a web server with PHP, Python, and the Diceware command line tool 
 
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the GPL-3.0 license. See `LICENSE` for more information.
@@ -59,7 +58,6 @@ Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 Contact Page: [https://squreit.se/contact](https://squreit.se/contact)
