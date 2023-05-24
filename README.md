@@ -1,3 +1,19 @@
+<!---
+This README.md file is based on https://github.com/othneildrew/Best-README-Template
+
+Copyright (c) 2021 Othneil Drew
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+-->
+
 <a name="readme-top"></a>
 
 
@@ -46,7 +62,7 @@ This is done to ensure user privacy, even though some functionalities may work b
 As a result of that, some design choices may seem odd, a prime example of which is the primitive search function.
 You only need a web server with PHP, Python, and the Diceware command line tool for generating passwords.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆️</a>)</p>
 
 
 
@@ -54,7 +70,7 @@ You only need a web server with PHP, Python, and the Diceware command line tool 
 
 Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆️</a>)</p>
 
 
 
@@ -66,4 +82,4 @@ Project Link: [https://github.com/aous-al-salek/SqureIT](https://github.com/aous
 
 Website: [https://squreit.se](https://squreit.se)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆️</a>)</p>
