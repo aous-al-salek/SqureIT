@@ -154,7 +154,7 @@
         </div>
 		<div class="bgimg"></div>
 	  	<div class="topleft">
-            <img src="/img/logo.png">
+            <img src="/img/logo.png" alt="SqureIT" id="header-logo" onMouseDown="logoClick(event)"/>
 	  	</div>
 	  	<div class="middle">
 			<svg viewBox="0 0 960 300">
@@ -174,24 +174,27 @@
 	    	<p id="demo" class="demo"></p>
 			<button class="zbutton" onclick="window.open('/', '_self');">Home</button>
 	  	</div>
-	<script>
-		var countDownDate = new Date("Jan 19, 2038 03:14:07").getTime();
-		var countdownfunction = setInterval(function() {
-  			    var now = new Date().getTime();
-  			    var distance = countDownDate - now;
-  			    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  			    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  			    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  			    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  			    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  			    + minutes + "m " + seconds + "s ";
-  			    if (distance < 0) {
-    		    	clearInterval(countdownfunction);
-    		    	document.getElementById("demo").innerHTML = "END OF TIME!";
-  			    }
-		    },
-            500
-        );
-	</script>
+		  <script type="text/javascript" src="/js/mobile.js"></script>
+		  <script type="text/javascript" src="/js/main.js"></script>
+		  <script type="text/javascript" src="/js/pwa-handler.js"></script>
+		<script>
+			var countDownDate = new Date("Jan 19, 2038 03:14:07").getTime();
+			var countdownfunction = setInterval(function() {
+  				    var now = new Date().getTime();
+  				    var distance = countDownDate - now;
+  				    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  				    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  				    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  				    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  				    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  				    + minutes + "m " + seconds + "s ";
+  				    if (distance < 0) {
+    			    	clearInterval(countdownfunction);
+    			    	document.getElementById("demo").innerHTML = "END OF TIME!";
+  				    }
+			    },
+    	        500
+    	    );
+		</script>
 	</body>
 </html>
