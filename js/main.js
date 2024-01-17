@@ -32,7 +32,7 @@ function lightMode() {
             document.getElementById('wspuzzle').src = "/games/wspuzzle";
         }
         if (lastPart === "end") {
-            document.getElementsByClassName('bgimg').style.backgroundImage = "url(/img/bg.gif)";
+            document.getElementsByClassName('bgimg')[0].style.backgroundImage = "url(/img/bg.gif)";
         }
     } else {
         window.localStorage.setItem('lightMode', 'enabled');
@@ -43,7 +43,7 @@ function lightMode() {
             document.getElementById('wspuzzle').src = "/games/wspuzzlel";
         }
         if (lastPart === "end") {
-            document.getElementsByClassName('bgimg').style.backgroundImage = "url(/img/bg-white.gif)";
+            document.getElementsByClassName('bgimg')[0].style.backgroundImage = "url(/img/bg-white.gif)";
         }
     }
 }
