@@ -76,4 +76,4 @@ function logoClick(event) {
     }
 }
 
-document.getElementById("fcy").innerHTML = `Copyright &copy; ${new Date().getFullYear()} <img src="/img/logo.png" style="width: 150px; margin-bottom: -20px;">`;
+document.getElementById("fcy").innerHTML = `Copyright &copy; 2023 – ${new Date().getFullYear()} <img src="/img/logo.png" style="width: 150px; margin-bottom: -20px;">`;
