@@ -31,6 +31,9 @@ function lightMode() {
         if (lastPart === "wordsearch") {
             document.getElementById('wspuzzle').src = "/games/wspuzzle";
         }
+        if (lastPart === "end") {
+            document.getElementsByClassName('bgimg').style.backgroundImage = "url(/img/bg.gif)";
+        }
     } else {
         window.localStorage.setItem('lightMode', 'enabled');
         cssElement.setAttribute('href', '/css/light-mode.css');
@@ -38,6 +41,9 @@ function lightMode() {
         spi.src = spi.src.substring(0,spi.src.lastIndexOf("/img/search_black_bg.png"))+"/img/search_white_bg.png";
         if (lastPart === "wordsearch") {
             document.getElementById('wspuzzle').src = "/games/wspuzzlel";
+        }
+        if (lastPart === "end") {
+            document.getElementsByClassName('bgimg').style.backgroundImage = "url(/img/bg-white.gif)";
         }
     }
 }
